@@ -1,0 +1,58 @@
+body{
+	background: url("damn.jpg");
+	background-size: 100%;
+}
+h2{
+    color: rgb(124, 124, 124);
+}
+.nav-link{
+    color: rgb(124, 124, 124);
+    padding-left: 60%;
+    padding-top: 2%;
+}
+.val{
+    color: rgb(124, 124, 124);
+    padding-left: 58%;
+    padding-top: 2%;
+}
+.hal{
+    padding-left: 0%;
+    width: 550px;
+}
+.hal2{
+    color: rgb(124, 124, 124);
+    width: 550px;
+    padding-left: 19%;
+    padding-top: 7%;
+    float: left;
+}
+.fortn{
+    color: rgb(124, 124, 124);
+    padding-left: 58.5%;
+    padding-top: 2%;
+}
+.codm{
+    color: rgb(124, 124, 124);
+    padding-left: 61%;
+    padding-top: 2%;
+}
+.li{
+    padding-top: 0%;
+    padding-left: 55%;
+    color: rgb(124, 124, 124);
+}
+a{
+    color: rgb(124, 124, 124);
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+a:hover {
+    color: red;
+    text-shadow:0px 0px 10px red;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  }

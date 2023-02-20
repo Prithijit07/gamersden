@@ -1,0 +1,106 @@
+<!doctype html>
+  <html lang="en">
+
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Registration Form</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <!-- <link rel="stylesheet" href="styles.css"> -->
+      <style>
+        body{
+            background: url("damn.jpg");
+            background-size: 100%;
+        }
+        .container-fluid{
+            padding-left: 17rem;
+            padding-top: 10.3rem;
+            
+        }
+        .card{
+            width: 50rem;
+            opacity: 0.9; /* set opacity to 70% */
+            background-color: transparent;
+            border-color: red;
+        }
+
+        .button{
+            margin-left: 51rem;
+            
+        }
+
+        .d{
+            margin-left: 36rem;
+
+        }
+
+        .needs-validation{
+            color: red;
+            font-weight: bold;
+        }
+      </style>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-body">
+                    <form class="needs-validation" novalidate>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="firstName">First Name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                Valid first name is required.
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                <div class="invalid-feedback">
+                                Valid last name is required.
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="mb-3">
+                            <label for="username">College ID</label>
+                                <input type="text" class="form-control" id="username" placeholder="college id">
+                                <div class="invalid-feedback">
+                                Your college id is required.
+                                </div>
+                        </div>
+        
+                        <div class="mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                            <div class="invalid-feedback">
+                                Please enter a valid email address.
+                            </div>
+                        </div>
+            
+                        <div class="mb-3">
+                            <label for="email">Payment Screenshot</label>
+                            <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                            
+                        </div>
+        
+                        <div class="mb-3">
+                            <button class="btn btn-outline-danger" type="button" id="inputGroupFileAddon04">Upload</button>
+                        </div>
+    
+                    </form>
+
+                    <a href="#" class="btn btn-danger">Submit Form</a>
+                    <a href="gamersden.html" class="btn btn-danger d">Close</a>
+
+                </div>
+            </div> 
+        </div>       
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+  </html>
